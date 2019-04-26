@@ -61,11 +61,11 @@ X GND 4 0 -300 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# coinPCB-rescue_CONN_01X08-cointest-rescue
+# coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue
 #
-DEF coinPCB-rescue_CONN_01X08-cointest-rescue P 0 40 Y N 1 F N
+DEF coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "coinPCB-rescue_CONN_01X08-cointest-rescue" 100 0 50 V V C CNN
+F1 "coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
