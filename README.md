@@ -15,3 +15,6 @@ Simple Coin Shaped ESP8266 Breakout Board
 add a spot for a pwm to run a servo
 break out the rest of GPIO lines onto the board
 add a coincell holder with a power switch
+
+# To Do
+Create a how-to on setting up KiCad with the newest symbol and footprint libraries as well as how to import digikey libraries.
