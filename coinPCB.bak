@@ -15,7 +15,7 @@ Comment3 "creativecommons.org/licences/by/4.0"
 Comment4 ""
 $EndDescr
 $Comp
-L coinPCB-rescue:CONN_01X08-cointest-rescue P1
+L coinPCB-rescue:CONN_01X08-cointest-rescue-coinPCB-rescue P1
 U 1 1 5763EB78
 P 9650 1400
 F 0 "P1" H 9650 1850 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 9650 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L coinPCB-rescue:CONN_01X08-cointest-rescue P2
+L coinPCB-rescue:CONN_01X08-cointest-rescue-coinPCB-rescue P2
 U 1 1 5763EBF2
 P 10100 1400
 F 0 "P2" H 10100 1850 50  0000 C CNN
@@ -391,7 +391,7 @@ U 1 1 5CBCDBB4
 P 7650 3100
 F 0 "U2" H 7500 3350 50  0000 C CNN
 F 1 "DHT12" H 7800 3350 50  0000 C CNN
-F 2 "Sensor:SHT1x" H 7650 2700 50  0001 C CNN
+F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 7650 2700 50  0001 C CNN
 F 3 "" H 7800 3350 50  0001 C CNN
 	1    7650 3100
 	1    0    0    -1  

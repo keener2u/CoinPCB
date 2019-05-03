@@ -184,7 +184,7 @@ F 3 "" H 5100 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R R1
+L Device:R R1
 U 1 1 5CBCAB8A
 P 4650 3450
 F 0 "R1" V 4730 3450 50  0000 C CNN
