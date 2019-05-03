@@ -36,8 +36,6 @@ F 3 "" H 10100 1400 50  0000 C CNN
 	1    10100 1400
 	-1   0    0    -1  
 $EndComp
-Text Label 9350 1050 2    60   ~ 0
-+5V
 Text Label 9350 1150 2    60   ~ 0
 GND
 Text Label 9350 1250 2    60   ~ 0
@@ -52,8 +50,6 @@ Text Label 9350 1650 2    60   ~ 0
 RX
 Text Label 9350 1750 2    60   ~ 0
 TX
-Text Label 10400 1050 0    60   ~ 0
-+3.3V
 Text Label 10400 1150 0    60   ~ 0
 D8
 Text Label 10400 1250 0    60   ~ 0
@@ -151,17 +147,6 @@ F 3 "" H 3950 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
-U 1 1 5CBCA4E1
-P 9200 1850
-F 0 "#PWR03" H 9200 1600 50  0001 C CNN
-F 1 "GND" H 9200 1700 50  0000 C CNN
-F 2 "" H 9200 1850 50  0000 C CNN
-F 3 "" H 9200 1850 50  0000 C CNN
-	1    9200 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 5CBCAB0F
 P 5100 2050
@@ -173,19 +158,6 @@ F 3 "" H 5100 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
-U 1 1 5CBCAB8A
-P 4650 3450
-F 0 "R1" V 4730 3450 50  0000 C CNN
-F 1 "1K" V 4650 3450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4580 3450 50  0001 C CNN
-F 3 "" H 4650 3450 50  0000 C CNN
-	1    4650 3450
-	0    1    1    0   
-$EndComp
-Text Label 5200 1650 2    60   ~ 0
-+5V
-$Comp
 L power:GND #PWR04
 U 1 1 5CBCAE77
 P 5150 4300
@@ -196,14 +168,12 @@ F 3 "" H 5150 4300 50  0000 C CNN
 	1    5150 4300
 	1    0    0    -1  
 $EndComp
-Text Label 4300 3450 2    60   ~ 0
+Text Label 4700 3450 2    60   ~ 0
 D3
 Wire Notes Line
 	8500 500  8500 2100
 Wire Notes Line
 	8500 2100 11200 2100
-Wire Wire Line
-	5200 1650 5100 1650
 Wire Wire Line
 	5100 1650 5100 1900
 Wire Wire Line
@@ -223,15 +193,11 @@ Wire Wire Line
 Wire Wire Line
 	3100 3100 3650 3100
 Wire Wire Line
-	4300 3450 4500 3450
-Wire Wire Line
-	4800 3450 4850 3450
+	4700 3450 4850 3450
 Wire Wire Line
 	9450 1650 9350 1650
 Wire Wire Line
 	9450 1750 9350 1750
-Wire Wire Line
-	10300 1050 10400 1050
 Wire Wire Line
 	10300 1150 10400 1150
 Wire Wire Line
@@ -248,59 +214,53 @@ Wire Wire Line
 	10300 1750 10400 1750
 Text Label 3100 3100 0    60   ~ 0
 D5
-Text Label 3950 2200 0    60   ~ 0
-+3.3V
-Text Label 5900 1900 0    60   ~ 0
-+3.3V
 $Comp
 L Device:R R3
 U 1 1 5CBCDE03
-P 6000 2550
-F 0 "R3" V 6080 2550 50  0000 C CNN
-F 1 "100" V 6000 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5930 2550 50  0001 C CNN
-F 3 "" H 6000 2550 50  0000 C CNN
-	1    6000 2550
+P 6000 3350
+F 0 "R3" V 6080 3350 50  0000 C CNN
+F 1 "100" V 6000 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5930 3350 50  0001 C CNN
+F 3 "" H 6000 3350 50  0000 C CNN
+	1    6000 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D2
 U 1 1 5CBCDE5F
-P 6000 3350
-F 0 "D2" H 6000 3450 50  0000 C CNN
-F 1 "LED" H 6000 3250 50  0000 C CNN
-F 2 "digikey-footprints:LED_3mm_Radial" H 6000 3350 50  0001 C CNN
-F 3 "" H 6000 3350 50  0000 C CNN
-	1    6000 3350
+P 6000 2550
+F 0 "D2" H 6000 2650 50  0000 C CNN
+F 1 "LED" H 6000 2450 50  0000 C CNN
+F 2 "digikey-footprints:LED_3mm_Radial" H 6000 2550 50  0001 C CNN
+F 3 "" H 6000 2550 50  0000 C CNN
+	1    6000 2550
 	0    -1   -1   0   
 $EndComp
-Text Label 6000 4000 0    60   ~ 0
+Text Label 5900 1900 0    60   ~ 0
 D8
-Text Label 6550 1900 0    60   ~ 0
-+3.3V
 $Comp
 L Device:R R4
 U 1 1 5CBCE8B3
-P 6600 2550
-F 0 "R4" V 6680 2550 50  0000 C CNN
-F 1 "100" V 6600 2550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6530 2550 50  0001 C CNN
-F 3 "" H 6600 2550 50  0000 C CNN
-	1    6600 2550
+P 6650 3300
+F 0 "R4" V 6730 3300 50  0000 C CNN
+F 1 "100" V 6650 3300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 6580 3300 50  0001 C CNN
+F 3 "" H 6650 3300 50  0000 C CNN
+	1    6650 3300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D3
 U 1 1 5CBCE91D
-P 6650 3300
-F 0 "D3" H 6650 3400 50  0000 C CNN
-F 1 "LED" H 6650 3200 50  0000 C CNN
-F 2 "digikey-footprints:LED_3mm_Radial" H 6650 3300 50  0001 C CNN
-F 3 "" H 6650 3300 50  0000 C CNN
-	1    6650 3300
+P 6600 2550
+F 0 "D3" H 6600 2650 50  0000 C CNN
+F 1 "LED" H 6600 2450 50  0000 C CNN
+F 2 "digikey-footprints:LED_3mm_Radial" H 6600 2550 50  0001 C CNN
+F 3 "" H 6600 2550 50  0000 C CNN
+	1    6600 2550
 	0    -1   -1   0   
 $EndComp
-Text Label 6650 3900 2    60   ~ 0
+Text Label 6550 1900 2    60   ~ 0
 D4
 Wire Wire Line
 	5900 1900 5900 2400
@@ -317,11 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3150 6650 3150
 Wire Wire Line
-	6000 3500 6000 4000
-Wire Wire Line
 	6650 3450 6650 3900
-Text Label 7650 2000 0    60   ~ 0
-+3.3V
 $Comp
 L power:GND #PWR05
 U 1 1 5CBCE031
@@ -342,32 +298,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 3100 8350 3100
 Wire Wire Line
-	7650 2000 7650 2800
-Wire Wire Line
 	3950 2200 3950 2800
-Wire Wire Line
-	3950 3400 3950 4300
-Wire Wire Line
-	7150 3100 7150 4100
-Wire Wire Line
-	9200 1150 9200 1850
-Wire Wire Line
-	9200 1150 9450 1150
-Wire Wire Line
-	5150 4300 5150 3650
-$Comp
-L power:VCC #PWR0101
-U 1 1 5CBFEED3
-P 10400 950
-F 0 "#PWR0101" H 10400 800 50  0001 C CNN
-F 1 "VCC" H 10417 1123 50  0000 C CNN
-F 2 "" H 10400 950 50  0001 C CNN
-F 3 "" H 10400 950 50  0001 C CNN
-	1    10400 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10400 950  10400 1050
 $Comp
 L DHT12:DHT12 U2
 U 1 1 5CBCDBB4
@@ -381,6 +312,107 @@ F 3 "" H 7800 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 3100 7350 3100
+$Comp
+L power:GND #PWR0102
+U 1 1 5CCBD639
+P 6650 3900
+F 0 "#PWR0102" H 6650 3650 50  0001 C CNN
+F 1 "GND" H 6650 3750 50  0000 C CNN
+F 2 "" H 6650 3900 50  0000 C CNN
+F 3 "" H 6650 3900 50  0000 C CNN
+	1    6650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CCBD65C
+P 6000 4000
+F 0 "#PWR0103" H 6000 3750 50  0001 C CNN
+F 1 "GND" H 6000 3850 50  0000 C CNN
+F 2 "" H 6000 4000 50  0000 C CNN
+F 3 "" H 6000 4000 50  0000 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	9350 1050 9450 1050
+Wire Wire Line
+	9350 1150 9450 1150
+$Comp
+L power:+5V #PWR0101
+U 1 1 5CCC81C0
+P 5100 1650
+F 0 "#PWR0101" H 5100 1500 50  0001 C CNN
+F 1 "+5V" H 5115 1823 50  0000 C CNN
+F 2 "" H 5100 1650 50  0001 C CNN
+F 3 "" H 5100 1650 50  0001 C CNN
+	1    5100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5CCC8281
+P 3950 2200
+F 0 "#PWR0104" H 3950 2050 50  0001 C CNN
+F 1 "+3.3V" H 3965 2373 50  0000 C CNN
+F 2 "" H 3950 2200 50  0001 C CNN
+F 3 "" H 3950 2200 50  0001 C CNN
+	1    3950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0105
+U 1 1 5CCC8FF6
+P 7650 2000
+F 0 "#PWR0105" H 7650 1850 50  0001 C CNN
+F 1 "+3.3V" H 7665 2173 50  0000 C CNN
+F 2 "" H 7650 2000 50  0001 C CNN
+F 3 "" H 7650 2000 50  0001 C CNN
+	1    7650 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3100 7150 4100
+Wire Wire Line
+	7650 2000 7650 2800
+Wire Wire Line
+	10300 1050 10400 1050
+Text Label 10400 1050 0    60   ~ 0
++3.3V
+Text Label 9350 1050 2    60   ~ 0
++5V
+$Comp
+L power:+5V #PWR0106
+U 1 1 5CCD434C
+P 9450 900
+F 0 "#PWR0106" H 9450 750 50  0001 C CNN
+F 1 "+5V" H 9465 1073 50  0000 C CNN
+F 2 "" H 9450 900 50  0001 C CNN
+F 3 "" H 9450 900 50  0001 C CNN
+	1    9450 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0107
+U 1 1 5CCD4A83
+P 10300 850
+F 0 "#PWR0107" H 10300 700 50  0001 C CNN
+F 1 "VCC" H 10317 1023 50  0000 C CNN
+F 2 "" H 10300 850 50  0001 C CNN
+F 3 "" H 10300 850 50  0001 C CNN
+	1    10300 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 850  10300 1050
+Connection ~ 10300 1050
+Wire Wire Line
+	9450 900  9450 1050
+Connection ~ 9450 1050
+Wire Wire Line
+	3950 4300 3950 3400
+Wire Wire Line
+	6000 4000 6000 3500
+Wire Wire Line
+	5150 4300 5150 3650
 $EndSCHEMATC
