@@ -93,7 +93,7 @@ L dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238 U1
 U 1 1 5CBCA06F
 P 3950 3000
 F 0 "U1" H 3855 3140 60  0000 L CNN
-F 1 "TSOP38238" H 4150 2600 60  0000 L CNN
+F 1 "TSOP38238" V 3750 2700 60  0000 L CNN
 F 2 "digikey-footprints:IR_Receiver_TSOP38238" H 4150 3200 60  0001 L CNN
 F 3 "http://www.vishay.com/docs/82491/tsop382.pdf" H 4150 3300 60  0001 L CNN
 F 4 "751-1227-ND" H 4150 3400 60  0001 L CNN "Digi-Key_PN"
@@ -109,7 +109,7 @@ F 12 "Active" H 4150 4200 60  0001 L CNN "Status"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device1:LED D1
+L Device:LED D1
 U 1 1 5CBCA17E
 P 5100 2850
 F 0 "D1" H 5100 2950 50  0000 C CNN
@@ -173,7 +173,7 @@ F 3 "" H 9200 1850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R R2
+L Device:R R2
 U 1 1 5CBCAB0F
 P 5100 2050
 F 0 "R2" V 5180 2050 50  0000 C CNN
@@ -184,7 +184,7 @@ F 3 "" H 5100 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:R R1
+L Device:R R1
 U 1 1 5CBCAB8A
 P 4650 3450
 F 0 "R1" V 4730 3450 50  0000 C CNN
@@ -270,7 +270,7 @@ Text Label 3950 2200 0    60   ~ 0
 Text Label 5900 1900 0    60   ~ 0
 +3.3V
 $Comp
-L Device1:R R3
+L Device:R R3
 U 1 1 5CBCDE03
 P 6000 2550
 F 0 "R3" V 6080 2550 50  0000 C CNN
@@ -281,7 +281,7 @@ F 3 "" H 6000 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:LED D2
+L Device:LED D2
 U 1 1 5CBCDE5F
 P 6000 3350
 F 0 "D2" H 6000 3450 50  0000 C CNN
@@ -296,7 +296,7 @@ D8
 Text Label 6550 1900 0    60   ~ 0
 +3.3V
 $Comp
-L Device1:R R4
+L Device:R R4
 U 1 1 5CBCE8B3
 P 6600 2550
 F 0 "R4" V 6680 2550 50  0000 C CNN
@@ -307,7 +307,7 @@ F 3 "" H 6600 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device1:LED D3
+L Device:LED D3
 U 1 1 5CBCE91D
 P 6650 3300
 F 0 "D3" H 6650 3400 50  0000 C CNN
@@ -386,7 +386,7 @@ $EndComp
 Wire Wire Line
 	10400 950  10400 1050
 $Comp
-L Sensor1:DHT11 U2
+L DHT12:DHT12 U2
 U 1 1 5CBCDBB4
 P 7650 3100
 F 0 "U2" H 7500 3350 50  0000 C CNN

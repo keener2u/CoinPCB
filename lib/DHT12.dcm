@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DHT12
+D Temperature and humidity module
+K Digital temperature humidity sensor
+F http://akizukidenshi.com/download/ds/aosong/DHT12.pdf
+$ENDCMP
+#
+#End Doc Library
