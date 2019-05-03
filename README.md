@@ -2,7 +2,7 @@
 Simple Coin Shaped ESP8266 Breakout Board
 # V0.1 Errata
 
-* D1 LED is setup incorrectly on foot print d1 polorization is wrong  
+* D1 LED is setup incorrectly on foot print d1 polarization is wrong  
 * the infrared transmitter footprint needs to be rotated so the emitter is pointing out on the next rev  
 * D3 and D2 LED need to be run to ground instead of power  
 * use an exacto knife to cut the traces between 3.3VCC and D3 and Vcc and D4
