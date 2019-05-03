@@ -21,7 +21,7 @@
 
   (layers
     (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.127)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.4)
@@ -682,7 +682,6 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
 
-  (segment (start 152.827 110.744) (end 153.017 110.554) (width 0.25) (layer B.Cu) (net 8) (tstamp 5CBCC3E0) (status 30))
   (segment (start 137.477 105.474) (end 138.557 104.394) (width 0.2) (layer B.Cu) (net 1))
   (via (at 138.557 104.394) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 130.157 105.474) (end 137.477 105.474) (width 0.2) (layer B.Cu) (net 1) (status 10))
@@ -702,6 +701,7 @@
   (segment (start 142.621 114.173) (end 148.78 108.014) (width 0.2) (layer F.Cu) (net 6))
   (segment (start 153.105 100.482) (end 153.017 100.394) (width 0.2) (layer F.Cu) (net 7))
   (segment (start 162.662 100.482) (end 153.105 100.482) (width 0.2) (layer F.Cu) (net 7))
+  (segment (start 152.827 110.744) (end 153.017 110.554) (width 0.25) (layer B.Cu) (net 8) (tstamp 5CBCC3E0) (status 30))
   (segment (start 141.097 105.664) (end 141.097 106.541) (width 0.127) (layer B.Cu) (net 8))
   (segment (start 157.67 110.554) (end 153.017 110.554) (width 0.2) (layer B.Cu) (net 8))
   (segment (start 162.687 105.537) (end 157.67 110.554) (width 0.2) (layer B.Cu) (net 8))
