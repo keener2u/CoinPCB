@@ -1,0 +1,4 @@
+https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF
+https://www.digikey.com/products/en/optoelectronics/infrared-uv-visible-emitters/94?k=infrared%20tsal6100
+http://www.vishay.com/docs/81009/tsal6100.pdf
+https://escapequotes.net/esp8266-wemos-d1-mini-pins-and-diagram/
