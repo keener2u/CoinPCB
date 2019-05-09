@@ -95,6 +95,34 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Infrared-UV-Visible-Emitters:TSAL6100
+#
+DEF dk_Infrared-UV-Visible-Emitters:TSAL6100 D 0 0 Y Y 1 F N
+F0 "D" -75 175 60 H V C CNN
+F1 "dk_Infrared-UV-Visible-Emitters:TSAL6100" 200 -125 60 H V C CNN
+F2 "digikey-footprints:LED_IR_TSAL6100" 200 200 60 H I L CNN
+F3 "http://www.vishay.com/docs/81009/tsal6100.pdf" 200 300 60 H I L CNN
+F4 "751-1203-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "TSAL6100" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "Infrared, UV, Visible Emitters" 200 700 60 H I L CNN "Family"
+F8 "http://www.vishay.com/docs/81009/tsal6100.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/vishay-semiconductor-opto-division/TSAL6100/751-1203-ND/1681338" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "EMITTER IR 940NM 100MA RADIAL" 200 1000 60 H I L CNN "Description"
+F11 "Vishay Semiconductor Opto Division" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 100 50 100 -50 N
+P 2 0 1 0 100 150 50 100 N
+P 2 0 1 0 150 125 100 75 N
+P 3 0 1 0 75 150 100 150 100 125 N
+P 3 0 1 0 125 125 150 125 150 100 N
+P 4 0 1 0 0 50 0 -50 100 0 0 50 F
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238
 #
 DEF dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238 U 0 40 Y Y 1 F N
@@ -149,6 +177,37 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# power:+3.3V
+#
+DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+3.3V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power:+5V
+#
+DEF power:+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power:GND
 #
 DEF power:GND #PWR 0 0 Y Y 1 F P
@@ -159,20 +218,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:VCC
-#
-DEF power:VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
