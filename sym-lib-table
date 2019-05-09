@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name coinPCB-rescue)(type Legacy)(uri ${KIPRJMOD}/coinPCB-rescue.lib)(options "")(descr ""))
-  (lib (name DHT12)(type Legacy)(uri /home/matt/coin/CoinPCB/lib/DHT12.lib)(options "")(descr ""))
+  (lib (name DHT12)(type Legacy)(uri "$(KIPRJMOD)/lib/DHT12.lib")(options "")(descr ""))
 )

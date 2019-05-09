@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "CoinPCB"
-Date "2019-04-24"
-Rev "v0.1"
+Date "2019-05-09"
+Rev "v0.2"
 Comp ""
 Comment1 "Author: Matthew Keen"
 Comment2 "Licnese: CC BY-SA 4.0"

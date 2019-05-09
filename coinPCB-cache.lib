@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# DHT12:DHT12
+# DHT12_DHT12
 #
-DEF DHT12:DHT12 U 0 20 Y Y 1 F N
+DEF DHT12_DHT12 U 0 20 Y Y 1 F N
 F0 "U" -150 250 50 H V C CNN
-F1 "DHT12:DHT12" 150 250 50 H V C CNN
+F1 "DHT12_DHT12" 150 250 50 H V C CNN
 F2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" 0 -400 50 H I C CNN
 F3 "" 150 250 50 H I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X SCL 4 0 -300 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +44,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -61,11 +61,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# coinPCB-rescue:CONN_01X08-cointest-rescue-coinPCB-rescue
+# coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue
 #
-DEF coinPCB-rescue:CONN_01X08-cointest-rescue-coinPCB-rescue P 0 40 Y N 1 F N
+DEF coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "coinPCB-rescue:CONN_01X08-cointest-rescue-coinPCB-rescue" 100 0 50 V V C CNN
+F1 "coinPCB-rescue_CONN_01X08-cointest-rescue-coinPCB-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -95,11 +95,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dk_Infrared-UV-Visible-Emitters:TSAL6100
+# dk_Infrared-UV-Visible-Emitters_TSAL6100
 #
-DEF dk_Infrared-UV-Visible-Emitters:TSAL6100 D 0 0 Y Y 1 F N
+DEF dk_Infrared-UV-Visible-Emitters_TSAL6100 D 0 0 Y Y 1 F N
 F0 "D" -75 175 60 H V C CNN
-F1 "dk_Infrared-UV-Visible-Emitters:TSAL6100" 200 -125 60 H V C CNN
+F1 "dk_Infrared-UV-Visible-Emitters_TSAL6100" 200 -125 60 H V C CNN
 F2 "digikey-footprints:LED_IR_TSAL6100" 200 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/81009/tsal6100.pdf" 200 300 60 H I L CNN
 F4 "751-1203-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -123,11 +123,11 @@ X ~ 2 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238
+# dk_Optical-Sensors-Photo-Detectors-Remote-Receiver_TSOP38238
 #
-DEF dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238 U 0 40 Y Y 1 F N
+DEF dk_Optical-Sensors-Photo-Detectors-Remote-Receiver_TSOP38238 U 0 40 Y Y 1 F N
 F0 "U" -95 140 60 H V L CNN
-F1 "dk_Optical-Sensors-Photo-Detectors-Remote-Receiver:TSOP38238" 30 -350 60 H V L CNN
+F1 "dk_Optical-Sensors-Photo-Detectors-Remote-Receiver_TSOP38238" 30 -350 60 H V L CNN
 F2 "digikey-footprints:IR_Receiver_TSOP38238" 200 200 60 H I L CNN
 F3 "http://www.vishay.com/docs/82491/tsop382.pdf" 200 300 60 H I L CNN
 F4 "751-1227-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -147,11 +147,11 @@ X VS 3 0 200 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# dk_Transistors-Bipolar-BJT-Single:2N2222A
+# dk_Transistors-Bipolar-BJT-Single_2N2222A
 #
-DEF dk_Transistors-Bipolar-BJT-Single:2N2222A Q 0 0 Y Y 1 F N
+DEF dk_Transistors-Bipolar-BJT-Single_2N2222A Q 0 0 Y Y 1 F N
 F0 "Q" -126 166 60 H V L CNN
-F1 "dk_Transistors-Bipolar-BJT-Single:2N2222A" 206 0 60 V V C CNN
+F1 "dk_Transistors-Bipolar-BJT-Single_2N2222A" 206 0 60 V V C CNN
 F2 "digikey-footprints:TO-18-3" 200 200 60 H I L CNN
 F3 "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=2N2221A.PDF" 200 300 60 H I L CNN
 F4 "2N2222ACS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -177,11 +177,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# power_+3.3V
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -193,11 +193,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -208,11 +208,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
