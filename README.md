@@ -1,5 +1,10 @@
 # CoinPCB
 Simple Coin Shaped ESP8266 Breakout Board
+# V0.2 Updates
+ * Fixed V0.1 issues with LED running to power
+ * Added 53 Ohm resistor to 5V line through Infrared
+ * Created DHT12 I2C symbol package
+ * Changed component naming references to start at D9 after input referencs throug D8
 # V0.1 Errata
 
 * D1 LED is setup incorrectly on foot print d1 polarization is wrong  
