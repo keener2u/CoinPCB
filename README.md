@@ -1,5 +1,13 @@
 # CoinPCB
 Simple Coin Shaped ESP8266 Breakout Board
+# V0.2 Errata
+ * pins D3,D4,D8 are used for chip bootup to figure out where to run the program from . This causes issues if the Coin is hooked into the board on bootup. 
+ * D3,D4 also include a pull up resistor on boot and must be rerun to allow the pins to run to low when turned on.
+ * simple work around is to not solder Q1
+ * advanced is to exacto knife the D3 trace and run a jumper wire from the D3 pin to the D2 PIN if you aren't going to use the I2C connection. If you do this come see me:)
+ * reprogram the chip to get it back into a normal state. You can also plug the wifi board into power, let it boot and then plug the coin into the wifi board.
+ https://www.reddit.com/r/esp8266/comments/5ujgfl/issue_powering_up_wemos_d1_mini_with_pins_d3_d4/
+
 # V0.2 Updates
  * Fixed V0.1 issues with LED running to power
  * Added 53 Ohm resistor to 5V line through Infrared
