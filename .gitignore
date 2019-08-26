@@ -12,7 +12,7 @@ _autosave-*
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
-
+_saved*
 # Footprint cache
 fp-info-cache
 
