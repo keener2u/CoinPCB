@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name coinPCB-rescue)(type Legacy)(uri ${KIPRJMOD}/coinPCB-rescue.lib)(options "")(descr ""))
   (lib (name DHT12)(type Legacy)(uri "$(KIPRJMOD)/lib/DHT12.lib")(options "")(descr ""))
   (lib (name dk_Addressable-Specialty)(type Legacy)(uri /opt/kicadlibs/digikey-kicad-library/digikey-symbols/dk_Addressable-Specialty.lib)(options "")(descr ""))
   (lib (name dk_Alarms-Buzzers-and-Sirens)(type Legacy)(uri /opt/kicadlibs/digikey-kicad-library/digikey-symbols/dk_Alarms-Buzzers-and-Sirens.lib)(options "")(descr ""))
@@ -151,4 +150,5 @@
   (lib (name dk_TVS-Diodes)(type Legacy)(uri /opt/kicadlibs/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri /opt/kicadlibs/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology.lib)(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri /opt/kicadlibs/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name D1_mini)(type Legacy)(uri ${KIPRJMOD}/lib/D1_mini.lib)(options "")(descr ""))
 )
